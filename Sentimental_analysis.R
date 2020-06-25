@@ -1,4 +1,4 @@
-# This R program is designed analyse the text.
+# This R program is designed to analyse the text and give sentiment values.
 library(ggplot2)
 library(lubridate)
 library(scales)
