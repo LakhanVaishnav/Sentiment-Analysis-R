@@ -11,8 +11,8 @@ library(stringr)
 library(syuzhet) 
 library(dplyr ) 
 
-#get the data from whatsapp chat 
-text <- readLines("../input/GBcomments.csv", n = 10000)
+#get the data from the csv file
+text <- readLines("whcomments.csv", n = 10000)
 #Convert the file to UTF-8 encoding
 s2 <- iconv(text, "UTF-8", "ASCII", sub = "")
 text <- s2
